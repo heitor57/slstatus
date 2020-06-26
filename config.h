@@ -65,5 +65,6 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ datetime, "%s",           "%F %T" },
 	/* { ipv4, "%s",           "interface name (eth0)" }, */
-	{ disk_perc, " %s%%",           "/" },
+	{ disk_perc, "|Disk(%%) %s%%",           "/" },
+	{ ram_perc, "|RAM(%%) %s%%",           NULL },
 };
